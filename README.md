@@ -87,3 +87,5 @@ scores = dqn.test(env, nb_episodes=50, visualize=True)
 print(np.mean(scores.history['episode_reward']))
 ```
 ![Unknown](https://user-images.githubusercontent.com/71042259/139563915-0f8c9584-2643-40ca-96a5-444791e46fe5.png)
+
+After training through 10000 timestep, we have not been able to get a very good result because we have not trained more episodes. We need more training to get better and continuous improvement results.
